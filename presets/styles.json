@@ -1,0 +1,19 @@
+{
+  "styles": [
+    {
+      "id": "fantasy",
+      "label": "High Fantasy",
+      "prompt": "Ethereal fantasy atmosphere, glowing runes, misty ambiance"
+    },
+    {
+      "id": "scifi",
+      "label": "Sci-Fi Modern",
+      "prompt": "Clean futuristic design, holographic UI elements, reflective surfaces"
+    },
+    {
+      "id": "noir",
+      "label": "Film Noir",
+      "prompt": "High-contrast shadows, moody noir atmosphere, smoke-filled environment"
+    }
+  ]
+}

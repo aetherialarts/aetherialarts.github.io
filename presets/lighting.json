@@ -1,0 +1,19 @@
+{
+  "lighting": [
+    {
+      "id": "goldenHour",
+      "label": "Golden Hour",
+      "prompt": "Warm golden-hour sunlight, soft rim lighting"
+    },
+    {
+      "id": "moonlight",
+      "label": "Moonlit",
+      "prompt": "Cool moonlit scene, soft blue highlights, dramatic shadows"
+    },
+    {
+      "id": "studio",
+      "label": "Studio Soft Light",
+      "prompt": "Neutral studio softbox lighting, even illumination, smooth gradients"
+    }
+  ]
+}

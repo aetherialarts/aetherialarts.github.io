@@ -1,0 +1,9 @@
+{
+  "mood": [
+    { "id": "mysterious", "label": "Mysterious", "prompt": "Mysterious and immersive atmosphere, soft shadows and intrigue" },
+    { "id": "dramatic", "label": "Dramatic", "prompt": "High-drama tone with intense contrast and impactful framing" },
+    { "id": "calm", "label": "Calm", "prompt": "Calm, peaceful mood with smooth ambient motion" },
+    { "id": "dark", "label": "Dark and Foreboding", "prompt": "Dark, foreboding tone with looming shapes and deep shadows" },
+    { "id": "uplifting", "label": "Uplifting", "prompt": "Warm, uplifting tone with soft highlights and gentle motion" }
+  ]
+}

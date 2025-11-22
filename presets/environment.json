@@ -1,0 +1,9 @@
+{
+  "environment": [
+    { "id": "forest", "label": "Enchanted Forest", "prompt": "Deep enchanted forest with glowing plants and drifting mist" },
+    { "id": "desert_ruins", "label": "Ancient Desert Ruins", "prompt": "Sweeping desert ruins, broken stone pillars, hot shimmering air" },
+    { "id": "futuristic_city", "label": "Futuristic City", "prompt": "Neon-drenched futuristic cityscape with reflective surfaces" },
+    { "id": "mountains", "label": "Snow-Covered Mountains", "prompt": "Snow-covered mountains with cold wind and rugged terrain" },
+    { "id": "underwater", "label": "Underwater Realm", "prompt": "Underwater environment with drifting bubbles and shafts of filtered light" }
+  ]
+}

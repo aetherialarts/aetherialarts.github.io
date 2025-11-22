@@ -1,0 +1,19 @@
+{
+  "cameras": [
+    {
+      "id": "35mm",
+      "label": "35mm Full-Frame Cinema",
+      "prompt": "Shot on 35mm full-frame cinema camera, shallow depth of field, crisp detail"
+    },
+    {
+      "id": "anamorphic",
+      "label": "Anamorphic 2.39:1",
+      "prompt": "Widescreen anamorphic 2.39:1 composition, horizontal lens flares, cinematic distortion"
+    },
+    {
+      "id": "16mm",
+      "label": "16mm Vintage Film",
+      "prompt": "Handheld 16mm film aesthetic, heavy grain, flicker, organic motion"
+    }
+  ]
+}

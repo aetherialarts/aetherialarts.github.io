@@ -1,0 +1,9 @@
+{
+  "movement": [
+    { "id": "dolly_in", "label": "Dolly-In", "prompt": "Camera slowly dollies forward toward the subject" },
+    { "id": "pan_left", "label": "Pan Left", "prompt": "Camera pans smoothly left across the scene" },
+    { "id": "orbit", "label": "Orbit", "prompt": "Camera performs a slow orbit around the subject" },
+    { "id": "crane_up", "label": "Crane Up", "prompt": "Camera cranes upward, revealing more of the environment" },
+    { "id": "handheld", "label": "Handheld", "prompt": "Slight handheld movement adds organic, natural motion" }
+  ]
+}

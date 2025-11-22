@@ -1,0 +1,9 @@
+{
+  "effects": [
+    { "id": "dust_motes", "label": "Dust Motes", "prompt": "Tiny dust motes drifting in soft volumetric light" },
+    { "id": "embers", "label": "Floating Embers", "prompt": "Soft glowing embers drifting through the air" },
+    { "id": "fog", "label": "Light Fog", "prompt": "Light atmospheric fog adds depth to the scene" },
+    { "id": "rain", "label": "Rain Particles", "prompt": "Fine rain particles falling naturally, reflecting light subtly" },
+    { "id": "magic_glow", "label": "Magical Glow", "prompt": "Soft magical glows and sparkles enhancing the scene's mystique" }
+  ]
+}

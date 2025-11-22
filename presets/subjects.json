@@ -1,0 +1,9 @@
+{
+  "subjects": [
+    { "id": "human_protagonist", "label": "Human Protagonist", "prompt": "A lone human protagonist, determined expression" },
+    { "id": "wizard", "label": "Wizard", "prompt": "A mysterious wizard in flowing robes, ancient runes glowing softly" },
+    { "id": "robot", "label": "Advanced Robot", "prompt": "An advanced humanoid robot with illuminated circuitry" },
+    { "id": "fantasy_creature", "label": "Fantasy Creature", "prompt": "A towering fantasy creature with intricate textures and mythical presence" },
+    { "id": "animal", "label": "Animal", "prompt": "A realistic, expressive animal moving naturally in the scene" }
+  ]
+}
