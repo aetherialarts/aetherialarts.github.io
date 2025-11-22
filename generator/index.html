@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sora Prompt Generator (Feasibility MVP)</title>
+    <link rel="stylesheet" href="/css/styles.css" />
+</head>
+
+<body>
+    <h1>Sora Prompt Generator (Feasibility MVP)</h1>
+
+    <div class="container">
+
+        <!-- SUBJECT: free text comes first -->
+        <label for="subjectText">Subject Description:</label>
+        <textarea id="subjectText" rows="3" placeholder="Describe the main subject of the scene (e.g., a lone wizard reading a glowing book in a vast library)..."></textarea>
+
+        <!-- Optional subject presets (kept for compatibility with existing JS) -->
+        <label for="subjectSelect">Subject Preset (optional):</label>
+        <select id="subjectSelect"></select>
+
+        <!-- ENVIRONMENT / SETTING -->
+        <label for="environmentSelect">Environment / Setting:</label>
+        <select id="environmentSelect"></select>
+
+        <!-- MOOD / TONE -->
+        <label for="moodSelect">Mood / Tone:</label>
+        <select id="moodSelect"></select>
+
+        <!-- LIGHTING -->
+        <label for="lightingSelect">Lighting:</label>
+        <select id="lightingSelect"></select>
+
+        <!-- CAMERA TYPE -->
+        <label for="cameraSelect">Camera Type:</label>
+        <select id="cameraSelect"></select>
+
+        <!-- CAMERA MOVEMENT -->
+        <label for="movementSelect">Camera Movement:</label>
+        <select id="movementSelect"></select>
+
+        <!-- ART STYLE -->
+        <label for="styleSelect">Art Style:</label>
+        <select id="styleSelect"></select>
+
+        <!-- ATMOSPHERIC EFFECTS -->
+        <label for="effectsSelect">Atmospheric Effects:</label>
+        <select id="effectsSelect"></select>
+
+        <!-- GENERATE BUTTON -->
+        <button id="generateBtn">Generate Prompt</button>
+
+        <!-- OUTPUT -->
+        <h2>Generated Prompt</h2>
+        <textarea id="output" rows="8"></textarea>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+title: Aetherial Arts
+description: Creative Intelligence Studio
+theme: minima
+
+# Author:
+author:
+  name: Aetherial Arts
+
+# Enable future expansion:
+markdown: kramdown
+plugins:
+  - jekyll-feed
