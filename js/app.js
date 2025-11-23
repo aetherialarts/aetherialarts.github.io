@@ -1,12 +1,12 @@
 async function loadPresets() {
-    const cameras = await fetch("presets/cameras.json").then(r => r.json());
-    const styles = await fetch("presets/styles.json").then(r => r.json());
-    const lighting = await fetch("presets/lighting.json").then(r => r.json());
-    const subjects = await fetch("presets/subjects.json").then(r => r.json());
-    const movement = await fetch("presets/movement.json").then(r => r.json());
-    const environment = await fetch("presets/environment.json").then(r => r.json());
-    const mood = await fetch("presets/mood.json").then(r => r.json());
-    const effects = await fetch("presets/effects.json").then(r => r.json());
+    const cameras = await fetch("/presets/cameras.json").then(r => r.json());
+    const styles = await fetch("/presets/styles.json").then(r => r.json());
+    const lighting = await fetch("/presets/lighting.json").then(r => r.json());
+    const subjects = await fetch("/presets/subjects.json").then(r => r.json());
+    const movement = await fetch("/presets/movement.json").then(r => r.json());
+    const environment = await fetch("/presets/environment.json").then(r => r.json());
+    const mood = await fetch("/presets/mood.json").then(r => r.json());
+    const effects = await fetch("/presets/effects.json").then(r => r.json());
 
     populateDropdown("cameraSelect", cameras.cameras);
     populateDropdown("styleSelect", styles.styles);

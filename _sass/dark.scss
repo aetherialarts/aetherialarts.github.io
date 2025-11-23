@@ -1,0 +1,91 @@
+/* Global dark background */
+body {
+  background: #0c0c0c;
+  color: #ededed;
+}
+
+/* Site header */
+.site-header {
+  background: #111;
+  border-bottom: 1px solid #222;
+}
+/* Header brand link */
+.site-title,
+.site-title a {
+  color: #ededed !important;
+}
+/* Make hover consistent */
+.site-title:hover,
+.site-title a:hover {
+  color: #ffffff !important;
+}
+
+/* Navigation wrapper + links */
+.nav-trigger,
+.site-nav a,
+.site-nav .page-link {
+  color: #cfcfcf !important;
+}
+
+/* Hover state */
+.site-nav a:hover,
+.site-nav .page-link:hover {
+  color: #ffffff !important;
+}
+
+/* Active link (current page) */
+.site-nav .page-link:active,
+.site-nav .page-link:focus {
+  color: #ededed !important;
+}
+
+/* Remove Minima’s underline-on-hover */
+.site-nav a,
+.site-nav a:hover {
+  text-decoration: none !important;
+}
+
+/* Footer */
+.site-footer {
+  background: #111;
+  border-top: 1px solid #222;
+  color: #bbbbbb;
+}
+
+.site-footer a {
+  color: #888 !important;
+}
+
+/* Links */
+a {
+  color: #82aaff;
+}
+
+/* Button */
+a.cta-button {
+  background: #b3b3b3;
+  color: #111 !important;
+}
+
+a.cta-button:hover {
+  background: #d0d0d0;
+}
+
+/* Global CTA Button (light neutral aesthetic) */
+.cta-button {
+  display: inline-block;
+  padding: 0.75rem 1.4rem;
+  background: #b3b3b3;       /* lighter, pleasant grey */
+  color: #111 !important;     /* dark text for contrast */
+  border-radius: 6px;
+  font-size: 1rem;
+  text-decoration: none !important;
+  font-weight: 500;
+  transition: background 0.2s ease-in-out;
+}
+
+.cta-button:hover {
+  background: #d0d0d0;
+  color: #000 !important;
+  text-decoration: none !important;  /* stops underline */
+}
